@@ -1,0 +1,110 @@
+name: Bur Report
+description: Report a problem with the project or its documentation, and help us improve
+title: "[BUG]: "
+projects:
+  - 42dx/1
+labels:
+  - bug
+  - triage
+body:
+  - type: textarea
+    id: desc
+    attributes:
+      label: Describe the bug
+      description: |
+        **High level description of the problem found.**
+      placeholder: |
+        When I trying to achieve 'this', I am having trouble due to <reasons> [...]
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: |
+        **Detailed description of what _is_ happening.**
+      placeholder: |
+        When using the function 'x' it returns 'y' formatted as 'z' [...]
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: |
+        **Detailed description of what _should be_ happening.**
+      placeholder: |
+        When using the function 'x' it should return 'y' formatted as 'w' [...]
+    validations:
+      required: true
+
+  - type: textarea
+    id: how-to-reproduce
+    attributes:
+      label: How to reproduce
+      description: |
+        **A detailed _ordeted list_ of steps that will allow us to reproduce the problematic behavior.**
+      value: |
+        1- 
+        2- 
+        3-
+    validations:
+      required: true
+
+  - type: textarea
+    id: error-message-trace
+    attributes:
+      label: Error message or stack trace
+      description: |
+        **If applicable, please paste here the erro message you are seeing and/or the stack trace (please wrap each block in triple backticks `````).**
+      value: |
+        ```<lang, for syntax highlight>
+        <error message or stack trace>
+        ```
+  
+  - type: checkboxes
+    id: os
+    attributes:
+      label: Operational System
+      description: |
+        If applicable, pick the operational system where the problem is happening 
+        (more than one can be chosen, if you were able to check on all of them).
+        Please specify the version on the "extra details" question below.
+      options:
+        - label: Linux
+        - label: MacOS
+        - label: Windows
+        - label: Android
+        - label: iOS
+        - label: Other (please specify on the "extra details" question below)
+  
+  - type: checkboxes
+    id: browser
+    attributes:
+      label: Browser
+      description: |
+        If applicable, pick the browser the problem is happening
+        (more than one can be chosen, if you were able to check on all of them).
+        Please specify the version on the "extra details" question below.
+      options:
+        - label: Firefox
+        - label: Chrome
+        - label: Edge
+        - label: Opera
+        - label: Other (please specify on the "extra details" below)
+
+  - type: textarea
+    id: extra-details
+    attributes:
+      label: Extra Details
+      description: |
+        **If applicable, please provide extra information that may help us fix the issue (context, os/browser version, etc.).**
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: |
+        **If applicable, provide some screenshots that may help us understand what is happening.**
