@@ -51,7 +51,7 @@ Also, we sometimes use the draft state to filter stuff on our CI/CD routines, wh
 ### Code Standards
 
 - [ ] I have performed a self-review of my own code
-  - [ ] Code Lint pass locally with my changes
+- [ ] Code Lint pass locally with my changes
 - [ ] My code follows the style guidelines of this project
 - [ ] I have commented my code, particularly in hard-to-understand areas
 
@@ -59,7 +59,7 @@ Also, we sometimes use the draft state to filter stuff on our CI/CD routines, wh
 
 - [ ] My branch is up to date with the project's base branch
 - [ ] I have made corresponding changes to the documentation
-  - [ ] The documentation changes follow the repository's docs standards
+- [ ] The documentation changes follow the repository's docs standards
 - [ ] My changes generate no new warnings
 
 ### Testing
@@ -69,7 +69,7 @@ We understand that coverage is not always needed, or even recommended,
 but, still, if you can help up with out OCD, it would do us a great favor
 -->
 - [ ] Existing automated tests pass locally with my changes
-  - [ ] I have added new unit/integration tests that prove my fix is effective or that my feature works
+- [ ] I have added new unit/integration tests that prove my fix is effective or that my feature works
 
 ## How to verify the changes
 
