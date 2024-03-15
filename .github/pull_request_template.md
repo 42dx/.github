@@ -75,7 +75,7 @@ but, still, if you can help up with out OCD, it would do us a great favor
 ## How to verify the changes
 
 <!--
-If applicable, describe on a ordeted list the steps we should follow to verify your changes works as expected.
+If applicable, describe on a ordered list the steps we should follow to verify your changes works as expected.
 Please also includes any necessary specific configurations (env vars, inputs, etc.).
 Also describe any specific tests you performed
 -->
