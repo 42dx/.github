@@ -46,7 +46,7 @@ Also, we sometimes use the draft state to filter stuff on our CI/CD routines, wh
 ### General
 
 - [ ] I have read the org's [CONTRIBUTING](https://github.com/42dx/.github/blob/main/CONTRIBUTING.md) file
-- [ ] All my commit messages follow [conventional-commit](https://www.conventionalcommits.org/en/v1.0.0/) standards (remember: we use them to auto-generate the CHANGELOG file :sweat_smile:)
+- [ ] All my commit messages follow [conventional-commit](https://www.conventionalcommits.org/en/v1.0.0/) standards (we use them to auto-generate the CHANGELOG file :sweat_smile:)
 - [ ] I confirmed that there aren't any other open PR about the same issue
 
 ### Code Standards
