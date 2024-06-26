@@ -67,7 +67,7 @@ Also, we sometimes use the draft state to filter stuff on our CI/CD routines, wh
 <!--
 Side note: We aim for 100% code coverage with meaningful tests.
 We understand that coverage is not always needed, or even recommended,
-but, still, if you can help up with out OCD, it would do us a great favor
+but, still, if you can help up with our OCD, it would do us a great favor
 -->
 - [ ] Existing automated tests pass locally with my changes
 - [ ] I have added new unit/integration tests that prove my fix is effective or that my feature works
